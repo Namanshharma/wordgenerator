@@ -1,0 +1,9 @@
+<div id="main">
+    <h1>Slider is at : {{range}}</h1>
+    <label for="customRange3" class="form-label"></label>
+    <input type="range" class="slider"  step="5" (change)="changed()"><br>
+    <button class="btn btn-primary" (click)="generatewords()">Click here to generate words</button>
+    <div id="div1">
+        <div id="word" >{{array}}</div>
+    </div>
+</div>
